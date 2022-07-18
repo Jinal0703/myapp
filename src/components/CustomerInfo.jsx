@@ -343,7 +343,7 @@ const CustomerInfo = () => {
 						</Form.Group>
 					</div>
 					<Button>Copy shipto Info</Button>
-					<Form.Group className='mb-1 mt-2'>
+					<Form.Group className='mb-1 '>
 						<Form.Label>Notes</Form.Label>
 						<Form.Control
 							as='textarea'
@@ -351,7 +351,7 @@ const CustomerInfo = () => {
 							style={{ height: '80px' }}
 						/>
 					</Form.Group>
-					<Form.Group className='mb-1 mt-2'>
+					<Form.Group className='mb-1 '>
 						<Form.Label>Popup Notes</Form.Label>
 						<Form.Control
 							as='textarea'
@@ -359,14 +359,14 @@ const CustomerInfo = () => {
 							style={{ height: '80px' }}
 						/>
 					</Form.Group>
-					<Form.Group className='mb-1 mt-2'>
+					<Form.Group className='mb-1 '>
 						<Form.Label>Resale</Form.Label>
 						<Form.Control as='textarea' className='' />
 					</Form.Group>
 					<Button variant='secondary'>Print label</Button>
 				</div>
 			</div>
-			<div className='row border p-1 mt-1'>
+			<div className='row border mx-0 p-1 mt-1 '>
 				<div className='col-12 col-md-6 col-lg-3'>
 					<p>
 						Date of Last Invoice: <span>31/12/22</span>

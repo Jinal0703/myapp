@@ -1,6 +1,19 @@
 .btn{
     font-size: 12px;
+    padding: 5px;
 }
 p{
     margin-bottom: 3px;
+}
+.nav-link{
+    padding: 0.25rem 1rem;
+}
+.form-check{
+    font-size: 13px;
+}
+div > p, div > p >  span {
+    font-size: 13px;
+}
+.navbar{
+    padding: 5px 0;
 }
