@@ -78,7 +78,7 @@ const CustomerInfo = () => {
 								</div>
 							</Form.Group>
 							<div className='d-flex flex-wrap col-12 '>
-								<Form.Group className='mb-1 col-3   '>
+								<Form.Group className='mb-1 col-4  '>
 									<div className='d-flex align-items-center'>
 										<Form.Label>City</Form.Label>
 										<Form.Control
@@ -88,7 +88,7 @@ const CustomerInfo = () => {
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1 col-3'>
+								<Form.Group className='mb-1 col-4'>
 									<div className='d-flex align-items-center'>
 										<Form.Label>State</Form.Label>
 										<Form.Control
@@ -98,7 +98,7 @@ const CustomerInfo = () => {
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1 col-3 '>
+								<Form.Group className='mb-1 col-4'>
 									<div className='d-flex align-items-center '>
 										<Form.Label>Zip</Form.Label>
 										<Form.Control
@@ -108,7 +108,9 @@ const CustomerInfo = () => {
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1 col-3 '>
+							</div>
+							<div className='d-flex flex-wrap col-12'>
+								<Form.Group className='mb-1 col-4 '>
 									<div className='d-flex align-items-center '>
 										<Form.Label>Country</Form.Label>
 										<Form.Select
@@ -121,9 +123,7 @@ const CustomerInfo = () => {
 										</Form.Select>
 									</div>
 								</Form.Group>
-							</div>
-							<div className='d-flex flex-wrap col-12'>
-								<Form.Group className='mb-1 '>
+								<Form.Group className='mb-1 col-4 '>
 									<div className='d-flex align-items-center'>
 										<Form.Label>Phone</Form.Label>
 										<Form.Control
@@ -133,7 +133,7 @@ const CustomerInfo = () => {
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1 '>
+								<Form.Group className='mb-1 col-4'>
 									<div className='d-flex align-items-center'>
 										<Form.Label>Fax</Form.Label>
 										<Form.Control
@@ -143,11 +143,13 @@ const CustomerInfo = () => {
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1 '>
+							</div>
+							<div className='d-flex flex-wrap col-12'>
+								<Form.Group className='mb-1 col-4 '>
 									<div className='d-flex align-items-center'>
 										<Form.Label>Province</Form.Label>
 										<Form.Select
-											className='ms-2'
+											className='mx-2'
 											size='sm'
 											aria-label='Default select example'>
 											<option></option>
@@ -157,9 +159,7 @@ const CustomerInfo = () => {
 										</Form.Select>
 									</div>
 								</Form.Group>
-							</div>
-							<div className='d-flex flex-wrap col-12'>
-								<Form.Group className='mb-1'>
+								<Form.Group className='mb-1 col-4 '>
 									<div className='d-flex align-items-center'>
 										<Form.Label className='text-nowrap'>
 											Contact Person
@@ -171,7 +171,7 @@ const CustomerInfo = () => {
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1 '>
+								<Form.Group className='mb-1 col-4 '>
 									<div className='d-flex align-items-center'>
 										<Form.Label>Cell</Form.Label>
 										<Form.Control
@@ -181,11 +181,13 @@ const CustomerInfo = () => {
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1 '>
+							</div>
+							<div className='d-flex flex-wrap col-12 '>
+								<Form.Group className='mb-1 col-4 '>
 									<div className='d-flex align-items-center'>
 										<Form.Label>Currency</Form.Label>
 										<Form.Select
-											className='ms-2'
+											className='mx-2'
 											size='sm'
 											aria-label='Default select example'>
 											<option></option>
@@ -195,130 +197,128 @@ const CustomerInfo = () => {
 										</Form.Select>
 									</div>
 								</Form.Group>
-							</div>
-							<div className='d-flex flex-wrap col-12 col-lg-6'>
-								<Form.Group className='mb-1 '>
+								<Form.Group className='mb-1 col-4 '>
 									<div className='d-flex align-items-center'>
 										<Form.Label>Website</Form.Label>
 										<Form.Control
 											type='text'
-											className='ms-2'
+											className='mx-2'
 											size='sm'
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1'>
+								<Form.Group className='mb-1 col-4'>
 									<div className='d-flex align-items-center'>
 										<Form.Label>Buyer</Form.Label>
 										<Form.Control
 											type='text'
-											className='ms-2'
+											className='mx-2'
 											size='sm'
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1 '>
+								<Form.Group className='mb-1 col-4'>
 									<div className='d-flex align-items-center'>
 										<Form.Label>Accountant</Form.Label>
 										<Form.Control
 											type='text'
-											className='ms-2'
+											className='mx-2'
 											size='sm'
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1 '>
+								<Form.Group className='mb-1 col-4'>
 									<div className='d-flex align-items-center'>
 										<Form.Label className='text-nowrap'>
 											DOB of Customer
 										</Form.Label>
 										<Form.Control
 											type='date'
-											className='ms-2'
+											className='mx-2'
 											size='sm'
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1 '>
+								<Form.Group className='mb-1 col-4'>
 									<div className='d-flex align-items-center'>
 										<Form.Label className='text-nowrap'>
 											Name of Spouse
 										</Form.Label>
 										<Form.Control
 											type='text'
-											className='ms-2'
+											className='mx-2'
 											size='sm'
 										/>
 									</div>
 								</Form.Group>
 							</div>
-							<div className='d-flex flex-wrap col-12 col-lg-6'>
-								<Form.Group className='mb-1 '>
+							<div className='d-flex flex-wrap col-12'>
+								<Form.Group className='mb-1 col-4 '>
 									<div className='d-flex align-items-center'>
 										<Form.Label className='text-nowrap'>
 											Title
 										</Form.Label>
 										<Form.Control
 											type='text'
-											className='ms-2'
+											className='mx-2'
 											size='sm'
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1'>
+								<Form.Group className='mb-1 col-4'>
 									<div className='d-flex align-items-center'>
 										<Form.Label className='text-nowrap'>
 											Email-1
 										</Form.Label>
 										<Form.Control
 											type='text'
-											className='ms-2'
+											className='mx-2'
 											size='sm'
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1'>
+								<Form.Group className='mb-1 col-4'>
 									<div className='d-flex align-items-center'>
 										<Form.Label className='text-nowrap'>
 											Email-2
 										</Form.Label>
 										<Form.Control
 											type='text'
-											className='ms-2'
+											className='mx-2'
 											size='sm'
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1 '>
+								<Form.Group className='mb-1 col-4'>
 									<div className='d-flex align-items-center'>
 										<Form.Label>Owner</Form.Label>
 										<Form.Control
 											type='text'
-											className='ms-2'
+											className='mx-2'
 											size='sm'
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1'>
+								<Form.Group className='mb-1 col-4'>
 									<div className='d-flex align-items-center'>
 										<Form.Label className='text-nowrap'>
 											Date of Anniversary
 										</Form.Label>
 										<Form.Control
 											type='date'
-											className='ms-2'
+											className='mx-2'
 											size='sm'
 										/>
 									</div>
 								</Form.Group>
-								<Form.Group className='mb-1 '>
+								<Form.Group className='mb-1 col-4'>
 									<div className='d-flex align-items-center'>
 										<Form.Label className='text-nowrap'>
 											DOB of Spouse
 										</Form.Label>
 										<Form.Control
 											type='date'
-											className='ms-2'
+											className='mx-2'
 											size='sm'
 										/>
 									</div>
@@ -348,7 +348,7 @@ const CustomerInfo = () => {
 						<Form.Control
 							as='textarea'
 							className=''
-							style={{ height: '80px' }}
+							style={{ height: '50px' }}
 						/>
 					</Form.Group>
 					<Form.Group className='mb-1 '>
@@ -356,12 +356,16 @@ const CustomerInfo = () => {
 						<Form.Control
 							as='textarea'
 							className=''
-							style={{ height: '80px' }}
+							style={{ height: '50px' }}
 						/>
 					</Form.Group>
 					<Form.Group className='mb-1 '>
 						<Form.Label>Resale</Form.Label>
-						<Form.Control as='textarea' className='' />
+						<Form.Control
+							as='textarea'
+							className=''
+							style={{ height: '50px' }}
+						/>
 					</Form.Group>
 					<Button variant='secondary'>Print label</Button>
 				</div>
